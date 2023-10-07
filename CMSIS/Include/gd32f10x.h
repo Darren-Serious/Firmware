@@ -371,7 +371,7 @@ typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrStatus;
 #define USE_STDPERIPH_DRIVER
 #endif 
 #ifdef USE_STDPERIPH_DRIVER
-//#include "gd32f10x_libopt.h"
+#include "gd32f10x_libopt.h"
 #endif /* USE_STDPERIPH_DRIVER */
 
 #ifdef cplusplus

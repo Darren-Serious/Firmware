@@ -6,7 +6,7 @@ set(PERIPHERALS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/standard_peripheral)
 # add header file search path
 include_directories(
   ${CMSIS_DIR}/Include
-  ${PERIPHERALS_DIR}/Inlcude
+  ${PERIPHERALS_DIR}/Include
 )
 
 # set the startup file variable
@@ -27,7 +27,7 @@ add_library(firmware_library
 )
 
 # set the name of the output library
-set_target_properties(firmware_library PROPERTIES OUTPUT_NAME "firmware_library")
+set_target_properties(firmware_library PROPERTIES OUTPUT_NAME "lib_gd32f10x")
 
 # set the default output path for library files
 set(LIBRARY_OUTPUT_PATH $(PROJECT_SOURCE_DIR)/build/lib)
